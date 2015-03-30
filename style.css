@@ -3460,7 +3460,7 @@ footer .row-content.buffer {
     640px Breakpoint
 ----------------------------------------------------------------*/
 
-@media handheld, only screen and (max-width:40em) {
+@media handheld, only screen and (max-width:40em) and (max-width: 640px) {
 
     #intro .caption h2,
     #intro .caption-mockup h2 {
@@ -3482,7 +3482,7 @@ footer .row-content.buffer {
 ----------------------------------------------------------------*/
 
  @media only screen and (min-width: 480px) and (max-width: 767px) {
-    
+
 
     header {
         position: relative !important;
