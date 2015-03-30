@@ -3481,7 +3481,8 @@ footer .row-content.buffer {
     768px Breakpoint
 ----------------------------------------------------------------*/
 
-@media handheld, only screen and (max-width:48em) {
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+    
 
     header {
         position: relative !important;
