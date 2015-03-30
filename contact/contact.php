@@ -5,7 +5,7 @@
     $email = $_POST['email'];
     $message = $_POST['message'];
 
-    $to = "matthelbig@me.com"; // Replace xxxx@xxxx.com with your email address (mandatory!) 
+    $to = "matthelbig@icloud.com"; // Replace xxxx@xxxx.com with your email address (mandatory!) 
     $subject = "Hello"; // Choose a custom subject (not mandatory)
 
     $body = "You have received a message from " . $name . " (" . $email . "):\n\n" . $message;
