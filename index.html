@@ -325,6 +325,21 @@ value the importance of great design.</p>
 		<script src="js/plugins.js"></script>
 		<script src="js/beetle.js"></script>
 
+		<script>
+		$(document).ready(function(){
+			$('#send').click(function(){
+				$(this).val('Sending ...');
+				$('#success p').remove();
+				$.post('contact/contact.php', $('#contact-form').serialize(), function(response) {
+					$('#success').html(response);
+					//$('#success').hide('slow');
+					$('#send').val('Send a Message');
+				});
+				return false;
+			});
+		});
+		</script>	
+
 	</body>
 
 </html>
