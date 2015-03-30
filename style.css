@@ -868,7 +868,9 @@ nav ul.sub-menu > li:last-child > a {
 .blog-section.list-style article figure img,
 .search.list-style article figure img {
     width: 100%;
-  
+    -webkit-border-radius: 25%;
+    -moz-border-radius: 25%;
+    border-radius: 25%;
 }
 
 .blog.list-style article p,
